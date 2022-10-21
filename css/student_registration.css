@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+.row{
+    padding: 10px;
+    margin: 10px;
+}
+.title{
+  
+    display: inline;
+    
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="../css/student_registration.css">
+    <link rel="stylesheet" href="../js/">
+      
+      
+  
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body> 
+    <nav class="navbar bg-dark navbar-dark sticky-top">
+      <a href="student_registration.html" class="navbar-brand"><img src="../images/download.png" alt="ahexlogo" width="80px" height="60px" ></a>    
+      <button class="navbar-toggler"  data-toggle="collapse" data-target="#collapsibleNavbar">
+     <span class="navbar-toggler-icon"></span>
+
+      </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Registration</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+    </nav>
+     <header>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="title text-white text-center">Student Registration Form</h1>
+            </div>
+
+        </div>
+       
+     
+     </header>
+     <section class="container" >
+       <form id="form">
+        <div class="row ">
+            <div class="col-sm-4 col-md-4 col-lg-4 ">
+                <label for="">Firstname</label><br>
+                <input type="text" class="form-control" name="firstname" id="fname">
+            </div>
+          
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="">Lastname</label><br>
+                <input type="text" class="form-control" name="lastname" id="lname" ></div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="">Surname</label><br>
+                <input type="text" class="form-control" name="Surname" id="sname" ></div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="">Fathername</label><br>
+                <input type="text" class="form-control" name="fathername" id="fathername" >
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="">Mothername</label><br>
+                <input type="text" class="form-control" name="mothername" id="mothername" ></div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="">Email</label><br>
+                <input type="email" class="form-control" name="email" id="email" ></div>
+
+        </div>
+        <div class="row ">
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <label for="dob">Country code</label>
+                <select  id="countrycode" class="form-control" >
+                    <option value="+91-India">+91-India</option>
+                    <option value="+90-Turkey">+90-Turkey</option>
+                    <option value="+886-Taiwan">+886-Taiwan</option>
+                    <option value="+92-Pakistan">+92-Pakistan</option>
+                </select>
+                
+            </div>
+    
+            <div class="col-sm-5 col-md-5 col-lg-5">
+                <label for="">Phonenumber</label><br>
+                <input type="number" class="form-control" name="phonenumber" id="phonenumber" placeholder="Phonenumber">
+                
+            </div>
+            <div class="col-sm-5 col-md-5 col-lg-5">
+                <label for="">Aadharnumber</label><br>
+                <input type="number" class="form-control" name="adharnum" id="adharnum" placeholder="Adharnumber"  maxlength="12"></div>
+          
+
+        </div>
+ 
+        <div class="row ">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label for="">Gender</label><br>
+                
+                <div class="form-control">
+                    <label for="">Male</label>
+                    <input type="radio"  name="gender" id="male" value="Male">  
+                    <label for="">Female</label>
+                    <input type="radio"  name="gender" id="female" value="Female">
+                    <label for="">Others</label>
+                    <input type="radio"  name="gender" id="others" value="Others">
+                </div>
+                
+            </div>
+           
+            
+            <div class="col-sm-3 col-md-3 col-lg-3">
+            <label for="dob">Date of birth</label><br>
+            <input type="date"  name="dob" id="dob"  class="form-control">
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label for="citzen">Citizen</label><br>
+                <select  id="citizen" class="form-control">
+                    <option value="India">India</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Pakistan">Pakistan</option>
+                </select>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label for="">Studying</label><br>
+                <div class="form-control">
+                    <label for="">B.Tech</label>
+                    <input type="radio"  name="study" id="field1" value="B.Tech">  
+                    <label for="">M.Tech</label>
+                    <input type="radio"  name="study" id="field2" value="M.Tech">
+                    <label for="">M.B.A</label>
+                    <input type="radio" name="study" id="field3" value="M.B.A">
+                </div>
+               
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <fieldset>
+                    <legend>Current Address</legend>
+
+                   <textarea name="address" id="address" cols="50" rows="5" class="form-control"></textarea>
+                </fieldset>
+             
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <fieldset>
+                    <legend>Permanant Address</legend>
+                   <textarea name="peraddress" id="peraddress" cols="50" rows="5" class="form-control"></textarea>
+                </fieldset>
+            </div>    
+            
+        </div>
+        <div class="row ">
+            <div class="col-sm-3 col-md-3 col-lg-3 "> 
+              <label for="">SelfIntroduction</label><br>
+              <input type="file" name="selfintr" id="seldintr" class="form-control">
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3"> 
+                <label for="">Profile Pic</label><br>
+                <input type="file" name="pic" id="pic"  class="form-control">
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3"> 
+                <label for="">Adhar Card</label><br>
+                <input type="file" name="pic" id="pic"  class="form-control">
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3"> 
+                <label for="">Identity Card</label><br>
+                <input type="file" name="pic" id="pic"  class="form-control">
+            </div>
+            
+        </div>
+       <br>
+        <div class="row border border-dark">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <label for="" class="text-primary">Terms and Conditions</label><br>
+            <input type="checkbox" name="termsandcond" id="termsandcond" >
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laborum eum perferendis dignissimos fuga, cum dicta nihil adipisci dolorem dolorum! Quaerat totam iste sint a sunt, delectus assumenda fugiat! Fugit.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, aspernatur explicabo dolor harum possimus molestias.</p>
+        </div>
+        </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center ">
+                   <button type="button" class="btn-primary btn-lg" onclick="myFun()">Submit</button>
+                   <input type="reset"  class="btn-dark btn-lg"value="Reset">
+            </div>
+        </div>
+          
+       </form>
+     </section>
+
+  <script src="../js/student_registration.js"></script>  
+</body>
+</html>
